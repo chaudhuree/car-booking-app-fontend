@@ -190,14 +190,36 @@ a {
 .ant-form-item-label > label {
   color: #ffffff !important;
 }
+/* 
 
-.heart > svg {
+
+
+ */
+
+.heart-box {
+  background-color: white !important;
+  width: min-width(44px, 10%);
+  padding: 4px 10px;
+  height: 35px;
   position: absolute;
-  top: 67px;
+  opacity: 0.8;
+  top: 66px;
   left: 24px;
-  fill: rgba(227, 62, 62, 0.858);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
 }
-
+.heart > svg {
+  fill: rgba(227, 62, 62, 0.858);
+  transition: all 0.3s ease-in-out;
+  margin-right: 3px;
+}
 .heart > svg:hover {
   fill: #cf0d11;
+}
+.heart-text {
+  color: #cf0d11;
+  font-size: 15px;
+  font-weight: bold;
 }

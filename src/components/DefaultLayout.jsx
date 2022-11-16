@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 function DefaultLayout(props) {
   const user = JSON.parse(localStorage.getItem('user'))
-  console.log(user);
+  // console.log(user);
   const menu = (
     <Menu>
       <Menu.Item key={Date.now() * Math.random(6)}>
@@ -38,6 +38,7 @@ function DefaultLayout(props) {
       )}
       <Menu.Item key={uuidv4()} onClick={() => {
         localStorage.removeItem('user');
+        localStorage.removeItem('count');
         window.location.href = '/login'
       }}>
         <Link style={{ color: 'orangered' }}>Logout</Link>
