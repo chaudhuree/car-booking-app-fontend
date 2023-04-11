@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #ffffff;
+}
+body,
+html {
+  overflow-x: hidden !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  text-align: center;
+}
+.bs1 {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f4181c;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+p {
+  margin: 5px !important;
+
+  padding: 0;
+}
+.header {
+  padding: 10px;
+}
+.content {
+  min-height: 90vh;
+}
+.footer {
+  background-color: aliceblue;
+  padding: 10px;
+}
+.ant-row {
+  margin: 0 20 !important;
+}
+.spinner {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+}
+
+.btn1 {
+  box-shadow: none !important;
+  background-color: #f4181c !important;
+  color: #fff;
+  border: 1px solid #f4181c !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+  border-radius: 50px;
+}
+.btndemo {
+  box-shadow: none !important;
+  background-color: salmon !important;
+  color: #fff;
+  border: 1px solid palegreen !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+  border-radius: 50px;
+}
+.bt1:focus {
+  border: #cf0d11 !important;
+}
+.btdemo:focus {
+  border: white !important;
+}
+button {
+  padding: 3px 10px !important;
+}
+
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: #f4181c !important;
+  color: #fff;
+  border: 1px solid #f4181c !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+.car:hover {
+  height: 220px;
+}
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+.carimg {
+  height: 180px;
+  width: 100%;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.login {
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label,
+.login h1 {
+  color: white !important;
+  opacity: 0.6;
+}
+.login-form {
+  background-color: #1f1f1f;
+}
+.login-form input {
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.2 !important;
+}
+.login a {
+  color: white !important;
+  opacity: 0.5;
+}
+
+.carimg2 {
+  height: 400px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+a {
+  color: #ffffff !important;
+}
+
+.ant-dropdown-menu {
+  background-color: #d8151563 !important;
+}
+
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: #d8151563 !important;
+}
+.ant-divider-inner-text {
+  color: #cf0d11 !important;
+}
+
+.btn2 {
+  border: none !important;
+  color: #18a378;
+  background: transparent;
+}
+
+.btn2 > svg {
+  width: 0.75em !important;
+  color: #cf0d11;
+}
+
+.ant-form-item-label > label {
+  color: #ffffff !important;
+}
+
+.heart > svg {
+  position: absolute;
+  top: 67px;
+  left: 24px;
+  fill: rgba(227, 62, 62, 0.858);
+}
+
+.heart > svg:hover {
+  fill: #cf0d11;
+}

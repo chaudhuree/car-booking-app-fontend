@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Honda Civic",
+    "image": "https://images.unsplash.com/photo-1594070319944-7c0cbebb6f58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SG9uZGElMjBDaXZpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 20
+  },
+  {
+    "name": "Toyota Camry",
+    "image": "https://images.unsplash.com/photo-1588440983028-d53e24fa96cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8VG95b3RhJTIwQ2Ftcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 22
+  },
+  {
+    "name": "Nissan Altima",
+    "image": "https://images.unsplash.com/photo-1581540222194-0def2dda95b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Tmlzc2FuJTIwQWx0aW1hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 18
+  },
+  {
+    "name": "Ford Mustang",
+    "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Rm9yZCUyME11c3Rhbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 4,
+    "fuelType": "Gasoline",
+    "rentPerHour": 30
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "image": "https://images.unsplash.com/photo-1562911791-c7a97b729ec5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hldnJvbGV0JTIwQ2FtYXJvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 4,
+    "fuelType": "Gasoline",
+    "rentPerHour": 32
+  },
+  {
+    "name": "Dodge Charger",
+    "image": "https://images.unsplash.com/photo-1618458715001-d9080240b36a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8RG9kZ2UlMjBDaGFyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 25
+  },
+  {
+    "name": "Tesla Model S",
+    "image": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8VGVzbGElMjBNb2RlbCUyMFN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Electric",
+    "rentPerHour": 40
+  },
+  {
+    "name": "BMW M3",
+    "image": "https://images.unsplash.com/photo-1607500421646-be05ba1e0341?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Qk1XJTIwTTN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 4,
+    "fuelType": "Gasoline",
+    "rentPerHour": 35
+  },
+  {
+    "name": "Mercedes-Benz C-Class",
+    "image": "https://images.unsplash.com/photo-1587868399173-d09a5076ac5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fE1lcmNlZGVzJTIwQmVueiUyMEMlMjBDbGFzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 30
+  },
+  {
+    "name": "Audi A4",
+    "image": "https://images.unsplash.com/photo-1540066019607-e5f69323a8dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8QXVkaSUyMEE0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+    "capacity": 5,
+    "fuelType": "Gasoline",
+    "rentPerHour": 28
+  }
+]
