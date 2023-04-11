@@ -54,7 +54,7 @@ function Login() {
                 <hr />
 
                 <Link to="/register">Click Here to Register</Link>
-                <p onClick={handleDemo} style={{ color: "salmon", fontSize: "12px" }}>click here to visit as a demo user</p>
+                <p onClick={handleDemo} style={{ cursor: "pointer", color: "salmon", fontSize: "12px" }}>click here to visit as a demo user</p>
               </Form>
             </Col>
           </Row>
