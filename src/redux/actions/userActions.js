@@ -38,17 +38,32 @@ export const userRegister = (reqObj) => async dispatch => {
             username,
             password
         })
+
         message.success('Registration successfull')
+        // console.log(response.data);
+        localStorage.setItem('user', JSON.stringify(response.data.user))
+
         setTimeout(() => {
-            window.location.href = '/login'
+            window.location.href = '/'
 
         }, 500);
 
         dispatch({ type: 'LOADING', payload: false })
 
     } catch (error) {
-        console.log(error)
-        message.error('Something went wrong')
+        console.log(error.response.data.msg)
+        message.error(error.response.data.msg)
         dispatch({ type: 'LOADING', payload: false })
     }
+}
+
+export const data = (id) => async dispatch => {
+    dispatch({ type: 'LOADING', payload: true })
+
+    const { data } = await axios.post(`${import.meta.env.VITE_BASEURL}/data`, {
+        id
+    })
+    localStorage.setItem('count', JSON.stringify(data))
+    dispatch({ type: 'LOADING', payload: false })
+
 }

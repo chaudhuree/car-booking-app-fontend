@@ -10,7 +10,7 @@ function Login() {
   const { loading } = useSelector((state) => state.alertsReducer);
   function onFinish(values) {
     dispatch(userLogin(values));
-    console.log(values);
+    // console.log(values);
   }
   const handleDemo = () => {
     const values = {

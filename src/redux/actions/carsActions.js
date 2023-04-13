@@ -88,3 +88,27 @@ export const deleteCar = (props) => async dispatch => {
 
 
 }
+
+
+export const giveHeart = (carId) => async dispatch => {
+
+    dispatch({ type: 'LOADING', payload: true })
+
+    try {
+        await axios.put(`${import.meta.env.VITE_BASEURL}/giveheart`, {
+            carId
+        })
+
+        dispatch({ type: 'LOADING', payload: false })
+        message.success('You liked this car')
+        // setTimeout(() => {
+        //     window.location.href = '/admin'
+        // }, 500);
+        dispatch(getAllCars())
+    } catch (error) {
+        console.log(error)
+        dispatch({ type: 'LOADING', payload: false })
+    }
+
+
+}
