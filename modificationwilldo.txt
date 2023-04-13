@@ -1,0 +1,7 @@
+1. delete the booking from car. 
+ process: delete it from own model and disconnect from car bookslot
+
+2. disable booking selecl time which is already booked
+ process: first take booking time from user. then find in the booking slot with car id either it's starting or ending time 
+is booked or not.
+if it is already in the booked slot then message user it is not availabe and probably open the modal that has the booking time table.
